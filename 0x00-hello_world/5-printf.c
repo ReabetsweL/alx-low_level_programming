@@ -1,4 +1,4 @@
-#include <stadio.h>
+#include<stadio.h>
 /**
  * main -entry of program
  *
