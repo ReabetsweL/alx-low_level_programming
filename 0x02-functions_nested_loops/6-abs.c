@@ -3,11 +3,11 @@
  * Auth: ReabetsweL
  */
 
-#include "main.h" 
+#include"main.h" 
 
 /**
  * _abs - Computes the absolute value of the an integer.
- * @n: The integer to be computed. 
+ *@n: The integer to be computed. 
  *
  * Return: The absolute value of the integer.
  */
@@ -15,6 +15,6 @@ int _abs(int n)
 {
 	if (n >= 0)
 		return (n);
-	else 
+	else
 		return (-n);
 }
