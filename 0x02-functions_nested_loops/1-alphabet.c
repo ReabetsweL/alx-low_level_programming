@@ -1,7 +1,7 @@
 
 /*
  * File: 1-alphabet.c
- * Auth: azuka uteh
+ * Auth: ReabetsweL
  */
 
 #include "main.h"
