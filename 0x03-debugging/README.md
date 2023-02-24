@@ -1,3 +1,1 @@
-Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
-
-Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
+#0x03. C - Debugging #Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.
