@@ -1,26 +1,33 @@
 /*
- * File: 0-memset.c
+ * File: 0-strcat.c
  * Auth: ReabetsweL
  */
 
 #include "main.h"
 
 /**
- * memset - Fills the first n bytes of the memory area
- *          pointed to by @s with the constant byte @c.
- * @s: A pointer to the memory area to be filled.
- * @c: The character to fill the memory area with.
- * @n: The number of bytes to be filled.
+ * _strcat - Concatenates two strings.
  *
- * Return: A pointer to the filled memory area @s.
+ * @dest: Pointer to the destination string.
+ * @src: Pointer to the source string.
+ *
+ * Return: Pointer to the resulting string dest.
  */
-void *_memset(void *s, int c, size_t n)
+char *_strcat(char *dest, char *src)
 {
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+    int i, j;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
+    i = j = 0;
+    while (dest[i] != '\0')
+        i++;
 
-	return (memory);
+    while (src[j] != '\0')
+    {
+        dest[i] = src[j];
+        i++;
+        j++;
+    }
+
+    dest[i] = '\0';
+    return (dest);
 }
