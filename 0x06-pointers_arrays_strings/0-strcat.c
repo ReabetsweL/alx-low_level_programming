@@ -6,7 +6,6 @@
 #include "main.h"
 
 /**
- *
  * _strcat - Concatenates two strings.
  *
  * @dest: Pointer to the destination string.
@@ -29,7 +28,7 @@ char *_strcat(char *dest, char *src)
         j++;
     }
 
-    dest[i] = '\n'; /* Add a new line character */
-    dest[i + 1] = '\0'; /* Add the terminating null byte */
+    dest[i] = '\n';
+
     return (dest);
 }
