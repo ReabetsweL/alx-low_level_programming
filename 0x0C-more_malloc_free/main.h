@@ -1,10 +1,10 @@
 #ifndef MAIN_H
-#Define MAIN_H
+#define MAIN_H
 
 /**
  *
  * Desc: Header file containing prototypes for all functions
- * 	used in the 0x0C. C - More malloc, free directory.
+ *       used in the 0x0C. C - More malloc,free directory.
  */
 
 
