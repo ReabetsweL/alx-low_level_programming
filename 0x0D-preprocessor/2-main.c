@@ -1,13 +1,15 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /*
- * main - prints the names of the file.
- * Return: Always return 0 (Success)
+ * main - Entry point
+ *
+ * Description: This program prints the name of the file that it was compiled from.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("%s\n", Preprocessor);
-
+	printf("%s\n", ___FILE___);
 	return (0);
 }
