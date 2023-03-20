@@ -3,9 +3,7 @@
 
 /*
  * main - Entry point
- *
- * Description: This program prints the name of the file that it was compiled from.
- *
+ * Description: Prints the name of the file that it was compiled from.
  * Return: Always 0 (Success)
  */
 int main(void)
