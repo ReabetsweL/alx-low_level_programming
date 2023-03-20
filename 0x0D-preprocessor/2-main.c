@@ -2,7 +2,7 @@
 #include <stdlib>
 
 /*
- * main - prints the name of the file.
+ * main - prints the names of the file.
  * Return: Always return 0 (Success)
  */
 int main(void)
