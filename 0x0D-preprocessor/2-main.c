@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define main
 
-/* main - Entry point
- * Description: Prints the name of the file that it was compiled from.
+/*
+ * main - prints the names of the file
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("%s\n", ___FILE___);
+	printf("%s\n", __FILE__);
+
 	return (0);
 }
+
