@@ -29,5 +29,5 @@ ize_t print_list(const list_t *h)
 	count++;
 	h = h->next;
 	}
-	return count;
-}	
+	return (count);
+}
