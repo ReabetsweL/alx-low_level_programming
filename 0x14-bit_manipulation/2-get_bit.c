@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bit - value os a bit at given index.
+ * get_bit - value is a bit at given index.
  * @n: decimal parameter.
  * @index: index.
  * Reaturn: val
