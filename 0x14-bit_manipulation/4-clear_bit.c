@@ -3,7 +3,7 @@
 
 /**
  * clear_bit - sets the value of a bit to 0 at a given index.
- * @n: parameter 
+ * @n: parameter
  * @index: index
  * Return: 1 if works, or -1 if error
  */
