@@ -1,20 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
-int main(void)
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+*/
+int main(int ac, char **av)
 {
-    const char *filename = "example.txt";
-    size_t letters = 1024;
+	  ssize_t n;
 
-    ssize_t n = read_textfile(filename, letters);
-
-    if (n == -1)
-    {
-        printf("Error reading file %s\n", filename);
-        return 1;
-    }
-
-    printf("%ld bytes read from file %s\n", n, filename);
-
-    return 0;
+	   if (ac != 2)
+	   {
+		       dprintf(2, "Usage: %s filename\n", av[0]);
+		         exit(1);
+	   }
+	     n = read_textfile(av[1], 114);
+	     printf("\n(printed chars: %li)\n", n);
+	      n = read_textfile(av[1], 1024);
+	       printf("\n(printed chars: %li)\n", n);
+	         return (0);
 }
-
